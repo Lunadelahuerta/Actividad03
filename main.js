@@ -16,9 +16,8 @@ var dic = " diciembre"
 var meses = [ene, feb, mar, abr, may, jun, jul, ago, sep, oct, nov, dic]
 
 for (var i = 0; i < meses.length; i++){
-    console.log(cumple[i])
-    if (cumple != meses){
-    alert("Bacán, puedes celebrar tu no cumpleaños estos meses! " + meses)
+    if (cumple != meses[i]){
+    console.log(meses[i])
   }
 }
 
